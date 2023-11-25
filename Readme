@@ -1,0 +1,28 @@
+
+..................................................................................................................................   
+        
+    Site-uri utile :
+           
+     - Documentation Maven : https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+     - Mave Repository     : https://mvnrepository.com/
+           
+..................................................................................................................................
+
+    Comenzi pentru Maven ce trebuie scrise in " Command Prompt "  atunci cand vrem sa testam din folderul de testare : 
+     - mvn clean        ( curata fisierele din proiectul java )
+     - mvn compile      ( compileaza, adica verifica daca codul nostru pentru testare este scris corect )
+     - mvn test         ( testeaza )
+     
+    Note : 
+     - atentie la calea unde se gaseste proiectul pentru testare 
+       in cazul de fata calea proiectului cu numele "Mavenjava" se afla in                    :     " C:\Users\Marian\eclipse-workspace\Mavenjava> " .                                                       
+     - Calea unde " Dependencies " din fisierul " Pom.xml " instaleaza fisierele " jar " este :     " C:\Users\Marian\.m2\repository " .                                                      
+     - In fisierul de testare " src/test/java " cream clasele pentru testare. 
+       Numele acestor clase trebuie sa contina la sfarsit cuvantul "Test" pentru ca Maven sa le recunoasca atunci cand se face testarea .
+       Exemplu de clasa valida in Maven pentru Selenium Java: " AppiumTest.java " .   
+        
+..................................................................................................................................        
+        
+                                                           
+                                                           
+                                                                     
